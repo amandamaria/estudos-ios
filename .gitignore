@@ -22,6 +22,18 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
 ## Obj-C/Swift specific
 *.hmap
 
@@ -69,6 +81,8 @@ Carthage/Build/
 # Accio dependency management
 Dependencies/
 .accio/
+
+.DS_Store
 
 # fastlane
 #
